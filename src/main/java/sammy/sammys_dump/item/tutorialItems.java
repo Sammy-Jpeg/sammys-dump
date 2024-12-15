@@ -11,7 +11,7 @@ import sammy.sammys_dump.SammysDump;
 public class tutorialItems {
 
     public static final Item Gold_Coin = registeritems("gold_coin", new Item(new Item.Settings()));
-
+    public static final Item Silver_Coin = registeritems("silver_coin", new Item(new Item.Settings()));
 
     private static Item registeritems(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SammysDump.MOD_ID, name), item);
@@ -22,6 +22,7 @@ public class tutorialItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(Gold_Coin);
+            entries.add(Silver_Coin);
         });
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "sammys-dump:item/gold_coin"
+    "layer0": "sammys-random-emporium:item/gold_coin"
   }
 }
