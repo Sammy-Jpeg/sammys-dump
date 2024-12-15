@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sammys-dump",
+	"version": "${version}",
+	"name": "Sammy's Dump",
+	"description": "hi you probably shouldnt be here",
+	"authors": [
+		"Me = Sammy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sammys-dump/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sammy.sammys_dump.SammysDump"
+		],
+		"fabric-datagen": [
+			"sammy.sammys_dump.SammysDumpDataGenerator"
+		],
+		"client": [
+			"sammy.sammys_dump.SammysDumpClient"
+		]
+	},
+	"mixins": [
+		"sammys-dump.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
