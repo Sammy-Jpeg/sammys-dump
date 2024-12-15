@@ -1,4 +1,7 @@
 {
   "item.sammys-random-emporium.gold_coin": "Gold Coin",
-  "item.sammys-random-emporium.silver_coin": "Silver Coin"
+  "item.sammys-random-emporium.silver_coin": "Silver Coin",
+  "item.sammys-random-emporium.copper_coin": "Copper Coin",
+
+  "itemgroup.sammys-random-emporium.coin_stuffs": "Coin Stuffs"
 }
