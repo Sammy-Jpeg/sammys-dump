@@ -12,11 +12,11 @@ import sammy.sammys_dump.SammysDump;
 public class ModItemGroups {
     public static final ItemGroup Coin_Stuffs = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(SammysDump.MOD_ID, "coin_stuffs"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.Silver_Coin))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.Gold_Coin))
                     .displayName(Text.translatable("itemgroup.sammys-random-emporium.coin_stuffs"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.Silver_Coin);
                         entries.add(ModItems.Gold_Coin);
+                        entries.add(ModItems.Silver_Coin);
                         entries.add(ModItems.Copper_Coin);
 
                     }).build());

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sammys-random-emporium:silver_coin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "sammys-random-emporium:copper_coin"
+  }
+}

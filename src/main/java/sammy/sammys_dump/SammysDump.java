@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sammy.sammys_dump.block.ModBlocks;
 import sammy.sammys_dump.item.ModItemGroups;
 import sammy.sammys_dump.item.ModItems;
 
@@ -17,6 +18,7 @@ public class SammysDump implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}
 }
